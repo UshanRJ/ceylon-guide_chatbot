@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+backend/venv/
+*.so
+backend/.env
+
+# Node
+frontend/node_modules/
+frontend/build/
+npm-debug.log*
+
+# IDEs
+.idea/
+.vscode/
+
+# Database
+*.db
+*.sqlite3
+
+# Docker
+.dockerignore
+
+# OS
+.DS_Store
+Thumbs.db

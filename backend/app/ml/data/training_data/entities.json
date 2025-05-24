@@ -1,0 +1,215 @@
+[
+  {
+    "text": "I want to visit Colombo",
+    "entities": [
+      { "start": 15, "end": 22, "value": "Colombo", "entity": "location" }
+    ]
+  },
+  {
+    "text": "Convert 100 USD to LKR",
+    "entities": [
+      { "start": 8, "end": 11, "value": "100", "entity": "amount" },
+      { "start": 12, "end": 15, "value": "USD", "entity": "from_currency" },
+      { "start": 19, "end": 22, "value": "LKR", "entity": "to_currency" }
+    ]
+  },
+  {
+    "text": "Weather in Kandy today",
+    "entities": [
+      { "start": 11, "end": 16, "value": "Kandy", "entity": "location" },
+      { "start": 17, "end": 22, "value": "today", "entity": "time" }
+    ]
+  },
+  {
+    "text": "Translate hello to Sinhala",
+    "entities": [
+      { "start": 10, "end": 15, "value": "hello", "entity": "text_to_translate" },
+      { "start": 19, "end": 26, "value": "Sinhala", "entity": "target_language" }
+    ]
+  },
+  {
+    "text": "How to get from Galle to Ella",
+    "entities": [
+      { "start": 16, "end": 21, "value": "Galle", "entity": "origin_location" },
+      { "start": 25, "end": 29, "value": "Ella", "entity": "destination_location" }
+    ]
+  },
+  {
+    "text": "I'm looking for a hotel in Negombo for tomorrow.",
+    "entities": [
+      { "start": 25, "end": 32, "value": "Negombo", "entity": "location" },
+      { "start": 37, "end": 45, "value": "tomorrow", "entity": "time" }
+    ]
+  },
+  {
+    "text": "Show me tourist attractions in Jaffna.",
+    "entities": [
+      { "start": 30, "end": 36, "value": "Jaffna", "entity": "location" }
+    ]
+  },
+  {
+    "text": "What's the exchange rate for EUR to INR?",
+    "entities": [
+      { "start": 26, "end": 29, "value": "EUR", "entity": "from_currency" },
+      { "start": 33, "end": 36, "value": "INR", "entity": "to_currency" }
+    ]
+  },
+  {
+    "text": "Could you help me translate 'thank you' into Tamil?",
+    "entities": [
+      { "start": 21, "end": 30, "value": "thank you", "entity": "text_to_translate" },
+      { "start": 36, "end": 41, "value": "Tamil", "entity": "target_language" }
+    ]
+  },
+  {
+    "text": "Find a good restaurant in Trincomalee for tonight.",
+    "entities": [
+      { "start": 27, "end": 39, "value": "Trincomalee", "entity": "location" },
+      { "start": 44, "end": 51, "value": "tonight", "entity": "time" }
+    ]
+  },
+  {
+    "text": "How much is 50 GBP in LKR?",
+    "entities": [
+      { "start": 12, "end": 14, "value": "50", "entity": "amount" },
+      { "start": 15, "end": 18, "value": "GBP", "entity": "from_currency" },
+      { "start": 22, "end": 25, "value": "LKR", "entity": "to_currency" }
+    ]
+  },
+  {
+    "text": "Are there any temples in Dambulla?",
+    "entities": [
+      { "start": 27, "end": 35, "value": "Dambulla", "entity": "location" }
+    ]
+  },
+  {
+    "text": "Best beaches to visit in Mirissa",
+    "entities": [
+      { "start": 24, "end": 31, "value": "Mirissa", "entity": "location" }
+    ]
+  },
+  {
+    "text": "What's the weather like in Nuwara Eliya this weekend?",
+    "entities": [
+      { "start": 25, "end": 38, "value": "Nuwara Eliya", "entity": "location" },
+      { "start": 43, "end": 54, "value": "this weekend", "entity": "time" }
+    ]
+  },
+  {
+    "text": "Convert 200 EUR to Sri Lankan Rupees",
+    "entities": [
+      { "start": 8, "end": 11, "value": "200", "entity": "amount" },
+      { "start": 12, "end": 15, "value": "EUR", "entity": "from_currency" },
+      { "start": 19, "end": 34, "value": "Sri Lankan Rupees", "entity": "to_currency" }
+    ]
+  },
+  {
+    "text": "How far is it from Colombo to Sigiriya?",
+    "entities": [
+      { "start": 17, "end": 24, "value": "Colombo", "entity": "origin_location" },
+      { "start": 28, "end": 35, "value": "Sigiriya", "entity": "destination_location" }
+    ]
+  },
+  {
+    "text": "Find me a budget hotel in Anuradhapura for next week",
+    "entities": [
+      { "start": 26, "end": 38, "value": "Anuradhapura", "entity": "location" },
+      { "start": 43, "end": 52, "value": "next week", "entity": "time" }
+    ]
+  },
+  {
+    "text": "What are the must-see places in Polonnaruwa?",
+    "entities": [
+      { "start": 33, "end": 44, "value": "Polonnaruwa", "entity": "location" }
+    ]
+  },
+  {
+    "text": "Exchange rate for USD to LKR today",
+    "entities": [
+      { "start": 16, "end": 19, "value": "USD", "entity": "from_currency" },
+      { "start": 23, "end": 26, "value": "LKR", "entity": "to_currency" },
+      { "start": 27, "end": 32, "value": "today", "entity": "time" }
+    ]
+  },
+  {
+    "text": "Translate 'good morning' to Sinhala",
+    "entities": [
+      { "start": 10, "end": 22, "value": "good morning", "entity": "text_to_translate" },
+      { "start": 26, "end": 33, "value": "Sinhala", "entity": "target_language" }
+    ]
+  },
+  {
+    "text": "Where can I see elephants in Udawalawe?",
+    "entities": [
+      { "start": 31, "end": 40, "value": "Udawalawe", "entity": "location" }
+    ]
+  },
+  {
+    "text": "Recommend a luxury resort in Bentota for our anniversary",
+    "entities": [
+      { "start": 28, "end": 35, "value": "Bentota", "entity": "location" },
+      { "start": 40, "end": 53, "value": "our anniversary", "entity": "time" }
+    ]
+  },
+  {
+    "text": "How to travel from Kandy to Nuwara Eliya by train?",
+    "entities": [
+      { "start": 18, "end": 23, "value": "Kandy", "entity": "origin_location" },
+      { "start": 27, "end": 39, "value": "Nuwara Eliya", "entity": "destination_location" },
+      { "start": 43, "end": 48, "value": "train", "entity": "transport_mode" }
+    ]
+  },
+  {
+    "text": "What's the best time to visit Yala National Park?",
+    "entities": [
+      { "start": 31, "end": 49, "value": "Yala National Park", "entity": "location" }
+    ]
+  },
+  {
+    "text": "Find vegetarian restaurants in Galle Fort area",
+    "entities": [
+      { "start": 27, "end": 32, "value": "Galle", "entity": "location" },
+      { "start": 33, "end": 42, "value": "Fort area", "entity": "location_specifier" }
+    ]
+  },
+  {
+    "text": "Is there a direct bus from Colombo to Jaffna?",
+    "entities": [
+      { "start": 24, "end": 31, "value": "Colombo", "entity": "origin_location" },
+      { "start": 35, "end": 41, "value": "Jaffna", "entity": "destination_location" },
+      { "start": 16, "end": 20, "value": "bus", "entity": "transport_mode" }
+    ]
+  },
+  {
+    "text": "Current temperature in Hatton right now",
+    "entities": [
+      { "start": 22, "end": 28, "value": "Hatton", "entity": "location" },
+      { "start": 29, "end": 39, "value": "right now", "entity": "time" }
+    ]
+  },
+  {
+    "text": "Best places for whale watching in Sri Lanka",
+    "entities": [
+      { "start": 34, "end": 43, "value": "Sri Lanka", "entity": "location" }
+    ]
+  },
+  {
+    "text": "How much does a safari in Wilpattu cost?",
+    "entities": [
+      { "start": 24, "end": 32, "value": "Wilpattu", "entity": "location" }
+    ]
+  },
+  {
+    "text": "Translate 'where is the station' to Tamil",
+    "entities": [
+      { "start": 10, "end": 30, "value": "where is the station", "entity": "text_to_translate" },
+      { "start": 34, "end": 39, "value": "Tamil", "entity": "target_language" }
+    ]
+  },
+  {
+    "text": "Looking for ayurvedic spa in Unawatuna",
+    "entities": [
+      { "start": 25, "end": 34, "value": "Unawatuna", "entity": "location" }
+    ]
+  }
+]

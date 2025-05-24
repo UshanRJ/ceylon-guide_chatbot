@@ -1,0 +1,322 @@
+[
+  {
+    "text": "What are the best beaches in Sri Lanka?",
+    "intent": "destination_inquiry"
+  },
+  {
+    "text": "Top historical sites to visit",
+    "intent": "destination_inquiry"
+  },
+  {
+    "text": "Where can I see wildlife in Sri Lanka?",
+    "intent": "destination_inquiry"
+  },
+  {
+    "text": "Best places for hiking in Sri Lanka",
+    "intent": "destination_inquiry"
+  },
+  {
+    "text": "What are the must-visit UNESCO sites?",
+    "intent": "destination_inquiry"
+  },
+  {
+    "text": "How to book a train ticket in Sri Lanka?",
+    "intent": "transportation"
+  },
+  {
+    "text": "Is there Uber or PickMe in Colombo?",
+    "intent": "transportation"
+  },
+  {
+    "text": "What’s the cheapest way to travel between cities?",
+    "intent": "transportation"
+  },
+  {
+    "text": "How long is the bus ride from Kandy to Nuwara Eliya?",
+    "intent": "transportation"
+  },
+  {
+    "text": "Are tuk-tuks safe for tourists?",
+    "intent": "transportation"
+  },
+  {
+    "text": "Best luxury resorts in Sri Lanka",
+    "intent": "accommodation"
+  },
+  {
+    "text": "Where can I find eco-friendly hotels?",
+    "intent": "accommodation"
+  },
+  {
+    "text": "Hostel recommendations for backpackers",
+    "intent": "accommodation"
+  },
+  {
+    "text": "How much does a homestay cost?",
+    "intent": "accommodation"
+  },
+  {
+    "text": "Best areas to stay in Galle",
+    "intent": "accommodation"
+  },
+  {
+    "text": "What is a traditional Sri Lankan breakfast?",
+    "intent": "food_inquiry"
+  },
+  {
+    "text": "Where to find the best kottu roti?",
+    "intent": "food_inquiry"
+  },
+  {
+    "text": "Vegetarian food options in Sri Lanka",
+    "intent": "food_inquiry"
+  },
+  {
+    "text": "What’s the spiciest dish I should try?",
+    "intent": "food_inquiry"
+  },
+  {
+    "text": "Best seafood restaurants in Negombo",
+    "intent": "food_inquiry"
+  },
+  {
+    "text": "What’s the significance of the Temple of the Tooth?",
+    "intent": "culture_inquiry"
+  },
+  {
+    "text": "How do locals celebrate Sinhala New Year?",
+    "intent": "culture_inquiry"
+  },
+  {
+    "text": "Traditional dances in Sri Lanka",
+    "intent": "culture_inquiry"
+  },
+  {
+    "text": "What are the main religions in Sri Lanka?",
+    "intent": "culture_inquiry"
+  },
+  {
+    "text": "Tell me about Sri Lankan handicrafts",
+    "intent": "culture_inquiry"
+  },
+  {
+    "text": "Best time to visit for good weather?",
+    "intent": "weather_inquiry"
+  },
+  {
+    "text": "Monsoon season in the south coast",
+    "intent": "weather_inquiry"
+  },
+  {
+    "text": "Is December a good time to travel?",
+    "intent": "weather_inquiry"
+  },
+  {
+    "text": "Weather conditions in the hill country",
+    "intent": "weather_inquiry"
+  },
+  {
+    "text": "Humidity levels in Colombo",
+    "intent": "weather_inquiry"
+  },
+  {
+    "text": "Where can I exchange currency in Kandy?",
+    "intent": "currency_inquiry"
+  },
+  {
+    "text": "Is it better to use cash or card?",
+    "intent": "currency_inquiry"
+  },
+  {
+    "text": "Are ATMs widely available?",
+    "intent": "currency_inquiry"
+  },
+  {
+    "text": "Exchange rate for Australian dollars",
+    "intent": "currency_inquiry"
+  },
+  {
+    "text": "Should I tip in USD or LKR?",
+    "intent": "currency_inquiry"
+  },
+  {
+    "text": "How do you say ‘thank you’ in Sinhala?",
+    "intent": "translation_request"
+  },
+  {
+    "text": "Translate ‘emergency help’ to Tamil",
+    "intent": "translation_request"
+  },
+  {
+    "text": "Common Sinhala phrases for tourists",
+    "intent": "translation_request"
+  },
+  {
+    "text": "How to pronounce ‘Ayubowan’?",
+    "intent": "translation_request"
+  },
+  {
+    "text": "What does ‘Yamu’ mean?",
+    "intent": "translation_request"
+  },
+  {
+    "text": "Map of Sigiriya Rock Fortress",
+    "intent": "map_request"
+  },
+  {
+    "text": "How far is Ella from Colombo?",
+    "intent": "map_request"
+  },
+  {
+    "text": "Nearest hospital to my location",
+    "intent": "map_request"
+  },
+  {
+    "text": "Walking route to Galle Fort",
+    "intent": "map_request"
+  },
+  {
+    "text": "Public transport map of Colombo",
+    "intent": "map_request"
+  },
+  {
+    "text": "Hey! How are you?",
+    "intent": "general_greeting"
+  },
+  {
+    "text": "Good evening!",
+    "intent": "general_greeting"
+  },
+  {
+    "text": "Greetings!",
+    "intent": "general_greeting"
+  },
+  {
+    "text": "Thank you so much!",
+    "intent": "general_greeting"
+  },
+  {
+    "text": "Bye! See you later.",
+    "intent": "general_greeting"
+  },
+  {
+    "text": "I’m lost—what should I do?",
+    "intent": "help_request"
+  },
+  {
+    "text": "Emergency contact numbers",
+    "intent": "help_request"
+  },
+  {
+    "text": "How to report a problem?",
+    "intent": "help_request"
+  },
+  {
+    "text": "Where is the nearest police station?",
+    "intent": "help_request"
+  },
+  {
+    "text": "I need a tour guide",
+    "intent": "help_request"
+  },
+  {
+    "text": "What are the visa requirements for Sri Lanka?",
+    "intent": "visa_inquiry"
+  },
+  {
+    "text": "Do I need a visa on arrival?",
+    "intent": "visa_inquiry"
+  },
+  {
+    "text": "How to extend my tourist visa?",
+    "intent": "visa_inquiry"
+  },
+  {
+    "text": "Visa fees for US citizens",
+    "intent": "visa_inquiry"
+  },
+  {
+    "text": "ETA application process",
+    "intent": "visa_inquiry"
+  },
+  {
+    "text": "Best shopping markets in Colombo",
+    "intent": "shopping_inquiry"
+  },
+  {
+    "text": "Where to buy authentic Ceylon tea?",
+    "intent": "shopping_inquiry"
+  },
+  {
+    "text": "What souvenirs should I buy?",
+    "intent": "shopping_inquiry"
+  },
+  {
+    "text": "Bargaining tips for local markets",
+    "intent": "shopping_inquiry"
+  },
+  {
+    "text": "Best place to buy gemstones",
+    "intent": "shopping_inquiry"
+  },
+  {
+    "text": "Is Sri Lanka safe for solo travelers?",
+    "intent": "safety_inquiry"
+  },
+  {
+    "text": "Are there any travel advisories?",
+    "intent": "safety_inquiry"
+  },
+  {
+    "text": "Tips for avoiding scams",
+    "intent": "safety_inquiry"
+  },
+  {
+    "text": "Is tap water safe to drink?",
+    "intent": "safety_inquiry"
+  },
+  {
+    "text": "Vaccinations required for Sri Lanka",
+    "intent": "safety_inquiry"
+  },
+  {
+    "text": "Best yoga retreats in Sri Lanka",
+    "intent": "wellness_inquiry"
+  },
+  {
+    "text": "Where to experience Ayurveda?",
+    "intent": "wellness_inquiry"
+  },
+  {
+    "text": "Meditation centers near Kandy",
+    "intent": "wellness_inquiry"
+  },
+  {
+    "text": "Recommend a spa in Unawatuna",
+    "intent": "wellness_inquiry"
+  },
+  {
+    "text": "Yoga classes for beginners",
+    "intent": "wellness_inquiry"
+  },
+  {
+    "text": "Upcoming festivals in Sri Lanka",
+    "intent": "events_inquiry"
+  },
+  {
+    "text": "When is the Kandy Esala Perahera?",
+    "intent": "events_inquiry"
+  },
+  {
+    "text": "Cultural events this month",
+    "intent": "events_inquiry"
+  },
+  {
+    "text": "Where to celebrate New Year’s Eve?",
+    "intent": "events_inquiry"
+  },
+  {
+    "text": "Local music festivals",
+    "intent": "events_inquiry"
+  }
+]
