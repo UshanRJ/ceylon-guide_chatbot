@@ -35,7 +35,7 @@ A comprehensive AI-powered chatbot system for Sri Lankan tourism with Natural La
 1. **Clone the repository**
 ```bash
 git clone <repository-url>
-cd sri_lanka_chatbot
+cd ceylon-guide_chatbot
 ```
 
 2. **Set up environment variables**
