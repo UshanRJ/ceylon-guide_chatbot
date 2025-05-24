@@ -1,0 +1,146 @@
+[
+  {
+    "text": "Hi",
+    "intent": "general_greeting",
+    "added_date": "2025-05-24T14:54:50.409909",
+    "source": "user_feedback"
+  },
+  {
+    "text": "Hello there",
+    "intent": "general_greeting",
+    "added_date": "2025-05-24T14:54:50.411548",
+    "source": "user_feedback"
+  },
+  {
+    "text": "Good morning",
+    "intent": "general_greeting",
+    "added_date": "2025-05-24T14:54:50.413621",
+    "source": "user_feedback"
+  },
+  {
+    "text": "Hey",
+    "intent": "general_greeting",
+    "added_date": "2025-05-24T14:54:50.414835",
+    "source": "user_feedback"
+  },
+  {
+    "text": "I want to visit Sri Lanka",
+    "intent": "destination_inquiry",
+    "added_date": "2025-05-24T14:54:50.416642",
+    "source": "user_feedback"
+  },
+  {
+    "text": "Show me places",
+    "intent": "destination_inquiry",
+    "added_date": "2025-05-24T14:54:50.418353",
+    "source": "user_feedback"
+  },
+  {
+    "text": "Tourist attractions",
+    "intent": "destination_inquiry",
+    "added_date": "2025-05-24T14:54:50.420184",
+    "source": "user_feedback"
+  },
+  {
+    "text": "Places to see",
+    "intent": "destination_inquiry",
+    "added_date": "2025-05-24T14:54:50.421621",
+    "source": "user_feedback"
+  },
+  {
+    "text": "How to travel",
+    "intent": "transportation",
+    "added_date": "2025-05-24T14:54:50.424857",
+    "source": "user_feedback"
+  },
+  {
+    "text": "Transportation options",
+    "intent": "transportation",
+    "added_date": "2025-05-24T14:54:50.427531",
+    "source": "user_feedback"
+  },
+  {
+    "text": "Getting around",
+    "intent": "transportation",
+    "added_date": "2025-05-24T14:54:50.429982",
+    "source": "user_feedback"
+  },
+  {
+    "text": "Travel methods",
+    "intent": "transportation",
+    "added_date": "2025-05-24T14:54:50.431764",
+    "source": "user_feedback"
+  },
+  {
+    "text": "Where to stay",
+    "intent": "accommodation",
+    "added_date": "2025-05-24T14:54:50.433464",
+    "source": "user_feedback"
+  },
+  {
+    "text": "Hotels",
+    "intent": "accommodation",
+    "added_date": "2025-05-24T14:54:50.435047",
+    "source": "user_feedback"
+  },
+  {
+    "text": "Accommodation",
+    "intent": "accommodation",
+    "added_date": "2025-05-24T14:54:50.436285",
+    "source": "user_feedback"
+  },
+  {
+    "text": "Lodging",
+    "intent": "accommodation",
+    "added_date": "2025-05-24T14:54:50.438226",
+    "source": "user_feedback"
+  },
+  {
+    "text": "Food recommendations",
+    "intent": "food_inquiry",
+    "added_date": "2025-05-24T14:54:50.441207",
+    "source": "user_feedback"
+  },
+  {
+    "text": "What to eat",
+    "intent": "food_inquiry",
+    "added_date": "2025-05-24T14:54:50.443344",
+    "source": "user_feedback"
+  },
+  {
+    "text": "Local cuisine",
+    "intent": "food_inquiry",
+    "added_date": "2025-05-24T14:54:50.445169",
+    "source": "user_feedback"
+  },
+  {
+    "text": "Restaurants",
+    "intent": "food_inquiry",
+    "added_date": "2025-05-24T14:54:50.448876",
+    "source": "user_feedback"
+  },
+  {
+    "text": "Help me",
+    "intent": "help_request",
+    "added_date": "2025-05-24T14:54:50.453025",
+    "source": "user_feedback"
+  },
+  {
+    "text": "I need help",
+    "intent": "help_request",
+    "added_date": "2025-05-24T14:54:50.456163",
+    "source": "user_feedback"
+  },
+  {
+    "text": "Can you assist",
+    "intent": "help_request",
+    "added_date": "2025-05-24T14:54:50.457793",
+    "source": "user_feedback"
+  },
+  {
+    "text": "Support",
+    "intent": "help_request",
+    "added_date": "2025-05-24T14:54:50.459534",
+    "source": "user_feedback"
+  }
+]

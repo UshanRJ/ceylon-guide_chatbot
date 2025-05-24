@@ -1,0 +1,189 @@
+{
+  "locations": {
+    "patterns": [],
+    "context_rules": [
+      {
+        "pattern": "before_weather in",
+        "frequency": 9,
+        "confidence": 0.7674418604651163,
+        "added_date": "2025-05-24T17:00:52.031955"
+      },
+      {
+        "pattern": "after_?",
+        "frequency": 23,
+        "confidence": 0.7674418604651163,
+        "added_date": "2025-05-24T17:00:52.031980"
+      },
+      {
+        "pattern": "before_beaches in",
+        "frequency": 3,
+        "confidence": 0.7674418604651163,
+        "added_date": "2025-05-24T17:00:52.031993"
+      },
+      {
+        "pattern": "before_visit in",
+        "frequency": 3,
+        "confidence": 0.7674418604651163,
+        "added_date": "2025-05-24T17:00:52.032001"
+      },
+      {
+        "pattern": "before_get from",
+        "frequency": 3,
+        "confidence": 0.7674418604651163,
+        "added_date": "2025-05-24T17:00:52.032008"
+      },
+      {
+        "pattern": "after_to kandy?",
+        "frequency": 3,
+        "confidence": 0.7674418604651163,
+        "added_date": "2025-05-24T17:00:52.032014"
+      },
+      {
+        "pattern": "before_colombo to",
+        "frequency": 3,
+        "confidence": 0.7674418604651163,
+        "added_date": "2025-05-24T17:00:52.032020"
+      },
+      {
+        "pattern": "before_show me",
+        "frequency": 4,
+        "confidence": 0.7674418604651163,
+        "added_date": "2025-05-24T17:00:52.032026"
+      },
+      {
+        "pattern": "after_on map",
+        "frequency": 3,
+        "confidence": 0.7674418604651163,
+        "added_date": "2025-05-24T17:00:52.032032"
+      },
+      {
+        "pattern": "before_travel in",
+        "frequency": 3,
+        "confidence": 0.7886792452830188,
+        "added_date": "2025-05-24T20:11:17.033547"
+      },
+      {
+        "pattern": "before_do in",
+        "frequency": 3,
+        "confidence": 0.7932203389830509,
+        "added_date": "2025-05-24T20:12:58.391966"
+      },
+      {
+        "pattern": "before_me about",
+        "frequency": 3,
+        "confidence": 0.8,
+        "added_date": "2025-05-24T20:15:05.013872"
+      },
+      {
+        "pattern": "before_buses in",
+        "frequency": 3,
+        "confidence": 0.8,
+        "added_date": "2025-05-24T20:15:12.159944"
+      },
+      {
+        "pattern": "before_wildlife in",
+        "frequency": 3,
+        "confidence": 0.8059701492537313,
+        "added_date": "2025-05-24T20:16:36.504264"
+      }
+    ]
+  },
+  "miscellaneous": {
+    "patterns": [],
+    "context_rules": [
+      {
+        "pattern": "before_show me",
+        "frequency": 3,
+        "confidence": 0.8,
+        "added_date": "2025-05-24T17:00:52.032041"
+      },
+      {
+        "pattern": "after_on map",
+        "frequency": 3,
+        "confidence": 0.8,
+        "added_date": "2025-05-24T17:00:52.032047"
+      }
+    ]
+  },
+  "attractions": {
+    "patterns": [],
+    "context_rules": [
+      {
+        "pattern": "before_best",
+        "frequency": 4,
+        "confidence": 0.8,
+        "added_date": "2025-05-24T19:23:02.390292"
+      },
+      {
+        "pattern": "after_es in",
+        "frequency": 4,
+        "confidence": 0.8,
+        "added_date": "2025-05-24T19:23:02.390310"
+      }
+    ]
+  },
+  "persons": {
+    "patterns": [],
+    "context_rules": [
+      {
+        "pattern": "before_are must-try",
+        "frequency": 3,
+        "confidence": 0.8,
+        "added_date": "2025-05-24T20:10:46.057040"
+      },
+      {
+        "pattern": "after_dishes?",
+        "frequency": 3,
+        "confidence": 0.8,
+        "added_date": "2025-05-24T20:10:46.057046"
+      },
+      {
+        "pattern": "after_?",
+        "frequency": 3,
+        "confidence": 0.8,
+        "added_date": "2025-05-24T20:13:13.262438"
+      },
+      {
+        "pattern": "before_what is",
+        "frequency": 3,
+        "confidence": 0.8,
+        "added_date": "2025-05-24T20:13:21.980947"
+      },
+      {
+        "pattern": "before_me about",
+        "frequency": 3,
+        "confidence": 0.8,
+        "added_date": "2025-05-24T20:15:30.605173"
+      }
+    ]
+  },
+  "transportation": {
+    "patterns": [],
+    "context_rules": [
+      {
+        "pattern": "before_how is",
+        "frequency": 3,
+        "confidence": 0.8,
+        "added_date": "2025-05-24T20:12:43.873681"
+      },
+      {
+        "pattern": "after_travel in",
+        "frequency": 3,
+        "confidence": 0.8,
+        "added_date": "2025-05-24T20:12:43.873795"
+      },
+      {
+        "pattern": "before_what about",
+        "frequency": 3,
+        "confidence": 0.8000000000000002,
+        "added_date": "2025-05-24T20:15:12.159987"
+      },
+      {
+        "pattern": "after_es in",
+        "frequency": 3,
+        "confidence": 0.8000000000000002,
+        "added_date": "2025-05-24T20:15:12.159990"
+      }
+    ]
+  }
+}

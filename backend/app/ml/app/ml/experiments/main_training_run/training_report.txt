@@ -1,0 +1,97 @@
+================================================================================
+INTENT CLASSIFIER TRAINING REPORT
+================================================================================
+Experiment: main_training_run
+Timestamp: 2025-05-24T13:35:27.525680
+Best Model: sgd_classifier
+Best Score: 0.4800
+
+DATA ANALYSIS
+----------------------------------------
+Total Samples: 190
+Unique Intents: 16
+Class Balance: highly_imbalanced
+Average Text Length: 26.79
+Vocabulary Size: 408
+
+INTENT DISTRIBUTION
+----------------------------------------
+accommodation: 15 (7.9%)
+culture_inquiry: 15 (7.9%)
+currency_inquiry: 15 (7.9%)
+destination_inquiry: 15 (7.9%)
+events_inquiry: 5 (2.6%)
+food_inquiry: 15 (7.9%)
+general_greeting: 15 (7.9%)
+help_request: 15 (7.9%)
+map_request: 15 (7.9%)
+safety_inquiry: 5 (2.6%)
+shopping_inquiry: 5 (2.6%)
+translation_request: 15 (7.9%)
+transportation: 15 (7.9%)
+visa_inquiry: 5 (2.6%)
+weather_inquiry: 15 (7.9%)
+wellness_inquiry: 5 (2.6%)
+
+MODEL PERFORMANCE COMPARISON
+----------------------------------------
+Model                     CV Score     Test Acc     Test F1     
+svm_linear                0.1204       0.4211       0.3951      
+svm_rbf                   0.2642       0.5526       0.4860      
+random_forest             0.3209       0.4474       0.4369      
+gradient_boosting         0.4091       0.5263       0.4893      
+naive_bayes_multinomial   0.3762       0.6316       0.6098      
+naive_bayes_complement    0.4584       0.6579       0.6258      
+logistic_regression       0.2434       0.6316       0.5207      
+sgd_classifier            0.4800       0.6579       0.5702      
+knn                       0.4584       0.6579       0.5786      
+decision_tree             0.2812       0.4211       0.4417      
+mlp_neural_network        0.0488       0.5263       0.4287      
+
+ENSEMBLE MODEL RESULTS
+----------------------------------------
+voting_hard               0.4547       0.6579       0.6219      
+voting_soft               0.4073       0.6579       0.6223      
+bagging                   0.4692       0.6842       0.6440      
+
+BEST MODEL EVALUATION
+----------------------------------------
+Training Accuracy: 1.0000
+Test Accuracy: 0.6579
+F1 Macro: 0.5702
+F1 Micro: 0.6579
+F1 Weighted: 0.6326
+Cross-Validation Mean: 0.4800
+Cross-Validation Std: 0.0763
+Cohen's Kappa: 0.6302
+
+DETAILED CLASSIFICATION REPORT
+----------------------------------------
+accommodation        P:1.000 R:1.000 F1:1.000 S:3.0
+culture_inquiry      P:1.000 R:0.333 F1:0.500 S:3.0
+currency_inquiry     P:1.000 R:0.333 F1:0.500 S:3.0
+destination_inquiry  P:0.500 R:0.667 F1:0.571 S:3.0
+events_inquiry       P:0.000 R:0.000 F1:0.000 S:1.0
+food_inquiry         P:1.000 R:1.000 F1:1.000 S:3.0
+general_greeting     P:0.667 R:0.667 F1:0.667 S:3.0
+help_request         P:0.429 R:1.000 F1:0.600 S:3.0
+map_request          P:0.667 R:0.667 F1:0.667 S:3.0
+safety_inquiry       P:0.500 R:1.000 F1:0.667 S:1.0
+shopping_inquiry     P:1.000 R:1.000 F1:1.000 S:1.0
+translation_request  P:1.000 R:1.000 F1:1.000 S:3.0
+transportation       P:0.250 R:0.333 F1:0.286 S:3.0
+visa_inquiry         P:0.000 R:0.000 F1:0.000 S:1.0
+weather_inquiry      P:0.667 R:0.667 F1:0.667 S:3.0
+wellness_inquiry     P:0.000 R:0.000 F1:0.000 S:1.0
+
+TRAINING CONFIGURATION
+----------------------------------------
+test_size: 0.2
+validation_size: 0.2
+random_state: 42
+cv_folds: 5
+scoring_metrics: ['accuracy', 'precision_macro', 'recall_macro', 'f1_macro']
+hyperparameter_optimization: True
+ensemble_methods: True
+feature_selection: True
+text_preprocessing: True

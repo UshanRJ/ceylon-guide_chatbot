@@ -1,0 +1,16 @@
+{
+  "model_type": "entity_extraction",
+  "approach": "rule_based",
+  "rules_count": 41,
+  "categories": [
+    "version",
+    "created_date",
+    "sri_lankan_locations",
+    "currency_patterns",
+    "language_patterns",
+    "time_patterns",
+    "tourism_entities"
+  ],
+  "performance_estimate": 0.85,
+  "last_updated": "2025-05-24T13:35:27.539642"
+}

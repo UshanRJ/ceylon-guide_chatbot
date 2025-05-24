@@ -1,0 +1,113 @@
+{
+  "version": "1.0",
+  "created_date": "2025-05-24T13:35:27.538998",
+  "sri_lankan_locations": [
+    "colombo",
+    "kandy",
+    "galle",
+    "jaffna",
+    "negombo",
+    "ella",
+    "sigiriya",
+    "anuradhapura",
+    "polonnaruwa",
+    "trincomalee",
+    "batticaloa",
+    "matara",
+    "badulla",
+    "ratnapura",
+    "kurunegala",
+    "puttalam",
+    "kalutara",
+    "gampaha",
+    "nuwara eliya",
+    "haputale",
+    "bandarawela",
+    "tissamaharama",
+    "hambantota"
+  ],
+  "currency_patterns": {
+    "usd": [
+      "\\$\\d+(?:\\.\\d{2})?",
+      "\\busd\\b",
+      "\\bdollars?\\b"
+    ],
+    "eur": [
+      "\u20ac\\d+(?:\\.\\d{2})?",
+      "\\beur\\b",
+      "\\beuros?\\b"
+    ],
+    "gbp": [
+      "\u00a3\\d+(?:\\.\\d{2})?",
+      "\\bgbp\\b",
+      "\\bpounds?\\b"
+    ],
+    "lkr": [
+      "rs\\.?\\s*\\d+(?:\\.\\d{2})?",
+      "\\blkr\\b",
+      "\\brupees?\\b"
+    ],
+    "inr": [
+      "\u20b9\\d+(?:\\.\\d{2})?",
+      "\\binr\\b",
+      "\\bindian\\s+rupees?\\b"
+    ]
+  },
+  "language_patterns": [
+    "sinhala",
+    "tamil",
+    "english",
+    "sinhalese"
+  ],
+  "time_patterns": {
+    "today": "\\btoday\\b",
+    "tomorrow": "\\btomorrow\\b",
+    "yesterday": "\\byesterday\\b",
+    "now": "\\bnow\\b|\\bcurrent\\b",
+    "date": "\\b\\d{1,2}[/-]\\d{1,2}[/-]\\d{2,4}\\b",
+    "month": "\\b(january|february|march|april|may|june|july|august|september|october|november|december)\\b"
+  },
+  "tourism_entities": {
+    "attractions": [
+      "temple",
+      "fort",
+      "beach",
+      "mountain",
+      "waterfall",
+      "park",
+      "museum",
+      "palace",
+      "monastery",
+      "dagoba",
+      "stupa",
+      "rock",
+      "cave",
+      "garden"
+    ],
+    "activities": [
+      "safari",
+      "trekking",
+      "surfing",
+      "diving",
+      "whale watching",
+      "bird watching",
+      "tea plantation tour",
+      "cultural show",
+      "cooking class",
+      "meditation"
+    ],
+    "transportation_types": [
+      "bus",
+      "train",
+      "taxi",
+      "tuk tuk",
+      "car",
+      "van",
+      "motorbike",
+      "bicycle",
+      "boat",
+      "flight",
+      "helicopter"
+    ]
+  }
+}

@@ -747,10 +747,10 @@ const ChatInterface = ({ activeView }) => {
 
     // YOUR ORIGINAL QUICK ACTIONS - ENHANCED
     const quickActions = [
-        "What's the weather in Colombo?",
-        "Convert 100 USD to LKR",
-        "Translate 'Hello' to Sinhala",
-        "Best beaches in Sri Lanka",
+        "What about buses in Sri Lanka?",
+        "Tell me about Kandy",
+        "What are important cultural etiquettes?",
+        "Where can I see wildlife in Sri Lanka?",
         "Show me Sigiriya on map"
     ];
 

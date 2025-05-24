@@ -1,0 +1,754 @@
+{
+  "experiment_name": "main_training_run",
+  "timestamp": "2025-05-24T13:35:27.525680",
+  "best_model": "sgd_classifier",
+  "best_score": 0.4799634971509971,
+  "all_models": {
+    "svm_linear": {
+      "model": "SVC(C=0.1, kernel='linear', max_iter=2000, probability=True, random_state=42)",
+      "best_params": {
+        "C": 0.1,
+        "gamma": "scale",
+        "kernel": "linear",
+        "max_iter": 2000,
+        "probability": true,
+        "random_state": 42
+      },
+      "cv_score": 0.1203792735042735,
+      "cv_std": 0.10411225430713514,
+      "test_accuracy": 0.42105263157894735,
+      "test_f1": 0.3951388888888889,
+      "cv_folds_used": 3,
+      "grid_search_results": {
+        "best_score": 0.13269949840401277,
+        "total_fits": 6
+      }
+    },
+    "svm_rbf": {
+      "model": "SVC(C=10.0, gamma=0.001, max_iter=2000, probability=True, random_state=42)",
+      "best_params": {
+        "C": 10.0,
+        "gamma": 0.001,
+        "kernel": "rbf",
+        "max_iter": 2000,
+        "probability": true,
+        "random_state": 42
+      },
+      "cv_score": 0.2642004985754986,
+      "cv_std": 0.07758979109342228,
+      "test_accuracy": 0.5526315789473685,
+      "test_f1": 0.48604691876750705,
+      "cv_folds_used": 3,
+      "grid_search_results": {
+        "best_score": 0.2516564454064454,
+        "total_fits": 18
+      }
+    },
+    "random_forest": {
+      "model": "RandomForestClassifier(max_depth=20, min_samples_split=10, n_estimators=200,\n                       random_state=42)",
+      "best_params": {
+        "bootstrap": true,
+        "max_depth": 20,
+        "min_samples_leaf": 1,
+        "min_samples_split": 10,
+        "n_estimators": 200,
+        "random_state": 42
+      },
+      "cv_score": 0.32088039275539276,
+      "cv_std": 0.03696052523166757,
+      "test_accuracy": 0.4473684210526316,
+      "test_f1": 0.43693977591036415,
+      "cv_folds_used": 3,
+      "grid_search_results": {
+        "best_score": 0.33430383022774324,
+        "total_fits": 216
+      }
+    },
+    "gradient_boosting": {
+      "model": "GradientBoostingClassifier(learning_rate=0.01, max_depth=7, random_state=42,\n                           subsample=0.8)",
+      "best_params": {
+        "learning_rate": 0.01,
+        "max_depth": 7,
+        "n_estimators": 100,
+        "random_state": 42,
+        "subsample": 0.8
+      },
+      "cv_score": 0.40912733100233095,
+      "cv_std": 0.04078320042304136,
+      "test_accuracy": 0.5263157894736842,
+      "test_f1": 0.48934433621933626,
+      "cv_folds_used": 3,
+      "grid_search_results": {
+        "best_score": 0.39685498468393204,
+        "total_fits": 72
+      }
+    },
+    "naive_bayes_multinomial": {
+      "model": "MultinomialNB()",
+      "best_params": {
+        "alpha": 1.0,
+        "fit_prior": true
+      },
+      "cv_score": 0.37624443052074624,
+      "cv_std": 0.03889583284502163,
+      "test_accuracy": 0.631578947368421,
+      "test_f1": 0.6098214285714285,
+      "cv_folds_used": 3,
+      "grid_search_results": {
+        "best_score": 0.3544477513227513,
+        "total_fits": 6
+      }
+    },
+    "naive_bayes_complement": {
+      "model": "ComplementNB(norm=True)",
+      "best_params": {
+        "alpha": 1.0,
+        "norm": true
+      },
+      "cv_score": 0.4584290233187292,
+      "cv_std": 0.0446507926454626,
+      "test_accuracy": 0.6578947368421053,
+      "test_f1": 0.6257575757575757,
+      "cv_folds_used": 3,
+      "grid_search_results": {
+        "best_score": 0.45404583842083834,
+        "total_fits": 6
+      }
+    },
+    "logistic_regression": {
+      "model": "LogisticRegression(C=0.1, max_iter=3000, random_state=42)",
+      "best_params": {
+        "C": 0.1,
+        "max_iter": 3000,
+        "penalty": "l2",
+        "random_state": 42,
+        "solver": "lbfgs"
+      },
+      "cv_score": 0.24339075276575275,
+      "cv_std": 0.07785278188634111,
+      "test_accuracy": 0.631578947368421,
+      "test_f1": 0.520698051948052,
+      "cv_folds_used": 3,
+      "grid_search_results": {
+        "best_score": 0.20482712578749163,
+        "total_fits": 3
+      }
+    },
+    "sgd_classifier": {
+      "model": "SGDClassifier(loss='log_loss', max_iter=2000, random_state=42)",
+      "best_params": {
+        "alpha": 0.0001,
+        "learning_rate": "optimal",
+        "loss": "log_loss",
+        "max_iter": 2000,
+        "penalty": "l2",
+        "random_state": 42
+      },
+      "cv_score": 0.4799634971509971,
+      "cv_std": 0.07625873374544107,
+      "test_accuracy": 0.6578947368421053,
+      "test_f1": 0.5702380952380952,
+      "cv_folds_used": 3,
+      "grid_search_results": {
+        "best_score": 0.42437446203893575,
+        "total_fits": 6
+      }
+    },
+    "knn": {
+      "model": "KNeighborsClassifier(algorithm='brute', metric='cosine', n_neighbors=3,\n                     weights='distance')",
+      "best_params": {
+        "algorithm": "brute",
+        "metric": "cosine",
+        "n_neighbors": 3,
+        "weights": "distance"
+      },
+      "cv_score": 0.45840689811278046,
+      "cv_std": 0.06339515833845244,
+      "test_accuracy": 0.6578947368421053,
+      "test_f1": 0.5785714285714285,
+      "cv_folds_used": 3,
+      "grid_search_results": {
+        "best_score": 0.39834656084656084,
+        "total_fits": 12
+      }
+    },
+    "decision_tree": {
+      "model": "DecisionTreeClassifier(min_samples_split=10, random_state=42)",
+      "best_params": {
+        "criterion": "gini",
+        "max_depth": null,
+        "min_samples_leaf": 1,
+        "min_samples_split": 10,
+        "random_state": 42
+      },
+      "cv_score": 0.2811973706370258,
+      "cv_std": 0.06703857543120377,
+      "test_accuracy": 0.42105263157894735,
+      "test_f1": 0.44166666666666665,
+      "cv_folds_used": 3,
+      "grid_search_results": {
+        "best_score": 0.2287248501551158,
+        "total_fits": 96
+      }
+    },
+    "mlp_neural_network": {
+      "model": "MLPClassifier(alpha=0.001, early_stopping=True, learning_rate='adaptive',\n              max_iter=2000, random_state=42)",
+      "best_params": {
+        "activation": "relu",
+        "alpha": 0.001,
+        "early_stopping": true,
+        "hidden_layer_sizes": [
+          100
+        ],
+        "learning_rate": "adaptive",
+        "max_iter": 2000,
+        "random_state": 42,
+        "solver": "adam",
+        "validation_fraction": 0.1
+      },
+      "cv_score": 0.04876126732744379,
+      "cv_std": 0.025878751367252806,
+      "test_accuracy": 0.5263157894736842,
+      "test_f1": 0.42872023809523807,
+      "cv_folds_used": 3,
+      "grid_search_results": {
+        "best_score": 0.08335726773226775,
+        "total_fits": 4
+      }
+    }
+  },
+  "ensemble_models": {
+    "voting_hard": {
+      "model": "VotingClassifier(estimators=[('sgd_classifier',\n                              SGDClassifier(loss='log_loss', max_iter=2000,\n                                            random_state=42)),\n                             ('naive_bayes_complement',\n                              ComplementNB(norm=True)),\n                             ('knn',\n                              KNeighborsClassifier(algorithm='brute',\n                                                   metric='cosine',\n                                                   n_neighbors=3,\n                                                   weights='distance')),\n                             ('gradient_boosting',\n                              GradientBoostingClassifier(learning_rate=0.01,\n                                                         max_depth=7,\n                                                         random_state=42,\n                                                         subsample=0.8)),\n                             ('naive_bayes_multinomial', MultinomialNB())])",
+      "cv_score": 0.45467668905168906,
+      "cv_std": 0.05861714853391673,
+      "test_accuracy": 0.6578947368421053,
+      "test_f1": 0.6218885281385281,
+      "component_models": [
+        "sgd_classifier",
+        "naive_bayes_complement",
+        "knn",
+        "gradient_boosting",
+        "naive_bayes_multinomial"
+      ],
+      "cv_folds_used": 3
+    },
+    "voting_soft": {
+      "model": "VotingClassifier(estimators=[('sgd_classifier',\n                              SGDClassifier(loss='log_loss', max_iter=2000,\n                                            random_state=42)),\n                             ('naive_bayes_complement',\n                              ComplementNB(norm=True)),\n                             ('knn',\n                              KNeighborsClassifier(algorithm='brute',\n                                                   metric='cosine',\n                                                   n_neighbors=3,\n                                                   weights='distance')),\n                             ('gradient_boosting',\n                              GradientBoostingClassifier(learning_rate=0.01,\n                                                         max_depth=7,\n                                                         random_state=42,\n                                                         subsample=0.8)),\n                             ('naive_bayes_multinomial', MultinomialNB())],\n                 voting='soft')",
+      "cv_score": 0.40734277296777294,
+      "cv_std": 0.053785205950502624,
+      "test_accuracy": 0.6578947368421053,
+      "test_f1": 0.6223214285714286,
+      "component_models": [
+        "sgd_classifier",
+        "naive_bayes_complement",
+        "knn",
+        "gradient_boosting",
+        "naive_bayes_multinomial"
+      ],
+      "cv_folds_used": 3
+    },
+    "bagging": {
+      "model": "BaggingClassifier(estimator=SGDClassifier(loss='log_loss', max_iter=2000,\n                                          random_state=42),\n                  random_state=42)",
+      "cv_score": 0.46918290043290045,
+      "cv_std": 0.03372238236934357,
+      "test_accuracy": 0.6842105263157895,
+      "test_f1": 0.644047619047619,
+      "base_model": "sgd_classifier",
+      "cv_folds_used": 3
+    }
+  },
+  "evaluation": {
+    "train_accuracy": 1.0,
+    "test_accuracy": 0.6578947368421053,
+    "f1_macro": 0.5702380952380952,
+    "f1_micro": 0.6578947368421053,
+    "f1_weighted": 0.6325814536340852,
+    "cv_mean": 0.4799634971509971,
+    "cv_std": 0.07625873374544107,
+    "cv_folds_used": 3,
+    "classification_report": {
+      "accommodation": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 3.0
+      },
+      "culture_inquiry": {
+        "precision": 1.0,
+        "recall": 0.3333333333333333,
+        "f1-score": 0.5,
+        "support": 3.0
+      },
+      "currency_inquiry": {
+        "precision": 1.0,
+        "recall": 0.3333333333333333,
+        "f1-score": 0.5,
+        "support": 3.0
+      },
+      "destination_inquiry": {
+        "precision": 0.5,
+        "recall": 0.6666666666666666,
+        "f1-score": 0.5714285714285714,
+        "support": 3.0
+      },
+      "events_inquiry": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 1.0
+      },
+      "food_inquiry": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 3.0
+      },
+      "general_greeting": {
+        "precision": 0.6666666666666666,
+        "recall": 0.6666666666666666,
+        "f1-score": 0.6666666666666666,
+        "support": 3.0
+      },
+      "help_request": {
+        "precision": 0.42857142857142855,
+        "recall": 1.0,
+        "f1-score": 0.6,
+        "support": 3.0
+      },
+      "map_request": {
+        "precision": 0.6666666666666666,
+        "recall": 0.6666666666666666,
+        "f1-score": 0.6666666666666666,
+        "support": 3.0
+      },
+      "safety_inquiry": {
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1-score": 0.6666666666666666,
+        "support": 1.0
+      },
+      "shopping_inquiry": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 1.0
+      },
+      "translation_request": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 3.0
+      },
+      "transportation": {
+        "precision": 0.25,
+        "recall": 0.3333333333333333,
+        "f1-score": 0.2857142857142857,
+        "support": 3.0
+      },
+      "visa_inquiry": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 1.0
+      },
+      "weather_inquiry": {
+        "precision": 0.6666666666666666,
+        "recall": 0.6666666666666666,
+        "f1-score": 0.6666666666666666,
+        "support": 3.0
+      },
+      "wellness_inquiry": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 1.0
+      },
+      "accuracy": 0.6578947368421053,
+      "macro avg": {
+        "precision": 0.6049107142857142,
+        "recall": 0.6041666666666666,
+        "f1-score": 0.5702380952380952,
+        "support": 38.0
+      },
+      "weighted avg": {
+        "precision": 0.6851503759398496,
+        "recall": 0.6578947368421053,
+        "f1-score": 0.6325814536340852,
+        "support": 38.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    "learning_curve": {
+      "train_sizes": [
+        10,
+        32,
+        55,
+        78,
+        101
+      ],
+      "train_scores_mean": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "train_scores_std": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "val_scores_mean": [
+        0.07510418176179046,
+        0.18240625861593604,
+        0.28252002627002626,
+        0.38290007922360864,
+        0.48281550625300623
+      ],
+      "val_scores_std": [
+        0.03616136109193647,
+        0.0343916363434253,
+        0.0671652696134823,
+        0.07240384365503966,
+        0.07686503254388907
+      ]
+    },
+    "roc_auc_macro": 0.832014157014157,
+    "cohen_kappa": 0.6302395209580839,
+    "matthews_corrcoef": 0.6374618520800849
+  },
+  "data_analysis": {
+    "total_samples": 190,
+    "unique_intents": 16,
+    "intent_distribution": {
+      "destination_inquiry": 15,
+      "transportation": 15,
+      "accommodation": 15,
+      "food_inquiry": 15,
+      "culture_inquiry": 15,
+      "weather_inquiry": 15,
+      "currency_inquiry": 15,
+      "translation_request": 15,
+      "map_request": 15,
+      "general_greeting": 15,
+      "help_request": 15,
+      "visa_inquiry": 5,
+      "shopping_inquiry": 5,
+      "safety_inquiry": 5,
+      "wellness_inquiry": 5,
+      "events_inquiry": 5
+    },
+    "avg_text_length": 26.789473684210527,
+    "text_length_std": 8.512399299155017,
+    "vocab_size": 408,
+    "class_balance": "highly_imbalanced"
+  },
+  "training_config": {
+    "test_size": 0.2,
+    "validation_size": 0.2,
+    "random_state": 42,
+    "cv_folds": 5,
+    "scoring_metrics": [
+      "accuracy",
+      "precision_macro",
+      "recall_macro",
+      "f1_macro"
+    ],
+    "hyperparameter_optimization": true,
+    "ensemble_methods": true,
+    "feature_selection": true,
+    "text_preprocessing": true
+  }
+}

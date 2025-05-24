@@ -1,0 +1,310 @@
+{
+  "version": "1.0",
+  "last_updated": "2025-05-24T15:10:06.571115",
+  "destination_inquiry": {
+    "templates": [
+      "Here are some amazing places to visit in Sri Lanka: {content}",
+      "I'd recommend these fantastic destinations: {content}",
+      "Sri Lanka has wonderful places like: {content}",
+      "You'll love these destinations: {content}",
+      "For sightseeing, I suggest: {content}",
+      "These are must-visit places in Sri Lanka: {content}",
+      "Let me recommend some beautiful locations: {content}",
+      "Perfect destinations for your Sri Lankan adventure: {content}"
+    ],
+    "contextual_modifiers": {
+      "family": "family-friendly destinations",
+      "adventure": "exciting adventure spots",
+      "culture": "culturally rich locations",
+      "nature": "scenic natural attractions",
+      "history": "historically significant sites",
+      "beach": "beautiful coastal destinations",
+      "mountain": "stunning hill country locations"
+    },
+    "follow_up_suggestions": [
+      "Would you like specific information about any of these places?",
+      "I can provide more details about transportation or accommodation for these destinations.",
+      "Would you like to know the best time to visit these places?",
+      "I can help you plan an itinerary for these locations."
+    ]
+  },
+  "transportation": {
+    "templates": [
+      "For getting around Sri Lanka: {content}",
+      "Here are your transportation options: {content}",
+      "You can travel in Sri Lanka by: {content}",
+      "Transportation methods available: {content}",
+      "To reach your destination: {content}",
+      "Travel options include: {content}",
+      "Getting there is easy with: {content}",
+      "Your journey options: {content}"
+    ],
+    "contextual_modifiers": {
+      "budget": "affordable transportation options",
+      "comfort": "comfortable travel methods",
+      "fast": "quickest routes available",
+      "scenic": "scenic travel routes",
+      "local": "authentic local transport experiences"
+    },
+    "follow_up_suggestions": [
+      "Would you like specific schedules or pricing information?",
+      "I can help you book transportation if needed.",
+      "Need directions or route planning assistance?",
+      "Would you prefer door-to-door or public transport options?"
+    ]
+  },
+  "accommodation": {
+    "templates": [
+      "For accommodation in Sri Lanka: {content}",
+      "Here are some great places to stay: {content}",
+      "Your lodging options include: {content}",
+      "Perfect stays for your trip: {content}",
+      "Comfortable accommodation choices: {content}",
+      "I recommend these places to stay: {content}",
+      "Excellent lodging options: {content}",
+      "For your comfort, consider: {content}"
+    ],
+    "contextual_modifiers": {
+      "luxury": "premium luxury accommodations",
+      "budget": "affordable and comfortable options",
+      "family": "family-friendly accommodations",
+      "couples": "romantic getaway options",
+      "business": "business-friendly hotels",
+      "unique": "unique and memorable stays"
+    },
+    "follow_up_suggestions": [
+      "Would you like me to check availability and pricing?",
+      "I can provide contact details for booking.",
+      "Need information about amenities or location?",
+      "Would you prefer beachfront, city center, or hill country locations?"
+    ]
+  },
+  "food_inquiry": {
+    "templates": [
+      "Sri Lankan cuisine is amazing! {content}",
+      "You'll love the local food: {content}",
+      "Here's what you should know about Sri Lankan food: {content}",
+      "Delicious culinary experiences await: {content}",
+      "Sri Lankan gastronomy offers: {content}",
+      "Food lovers will enjoy: {content}",
+      "The local cuisine features: {content}",
+      "Taste the authentic flavors: {content}"
+    ],
+    "contextual_modifiers": {
+      "spicy": "wonderfully spiced dishes",
+      "mild": "milder flavor options",
+      "vegetarian": "excellent vegetarian cuisine",
+      "seafood": "fresh seafood specialties",
+      "street": "authentic street food experiences",
+      "fine": "upscale dining experiences"
+    },
+    "follow_up_suggestions": [
+      "Would you like restaurant recommendations in specific areas?",
+      "I can suggest dishes based on your spice tolerance.",
+      "Need information about food allergies or dietary restrictions?",
+      "Would you like to know about cooking classes or food tours?"
+    ]
+  },
+  "culture_inquiry": {
+    "templates": [
+      "Sri Lankan culture is rich and diverse: {content}",
+      "Here's what makes Sri Lankan culture special: {content}",
+      "Let me tell you about Sri Lankan traditions: {content}",
+      "The cultural heritage includes: {content}",
+      "Sri Lankan cultural experiences: {content}",
+      "Discover the rich traditions: {content}",
+      "Cultural insights for your visit: {content}",
+      "Immerse yourself in: {content}"
+    ],
+    "contextual_modifiers": {
+      "religious": "sacred and spiritual traditions",
+      "arts": "traditional arts and crafts",
+      "festivals": "colorful festivals and celebrations",
+      "music": "traditional music and dance",
+      "history": "ancient historical heritage",
+      "modern": "contemporary cultural expressions"
+    },
+    "follow_up_suggestions": [
+      "Would you like to visit specific cultural sites?",
+      "I can recommend cultural shows or performances.",
+      "Interested in participating in local festivals?",
+      "Would you like information about cultural etiquette?"
+    ]
+  },
+  "weather_inquiry": {
+    "templates": [
+      "Here's the weather information: {content}",
+      "Current weather conditions: {content}",
+      "Weather update: {content}",
+      "Climate information: {content}",
+      "Weather forecast: {content}",
+      "Atmospheric conditions: {content}",
+      "Today's weather: {content}",
+      "Weather outlook: {content}"
+    ],
+    "contextual_modifiers": {
+      "planning": "perfect weather for trip planning",
+      "outdoor": "great conditions for outdoor activities",
+      "beach": "ideal beach weather",
+      "hiking": "perfect hiking conditions",
+      "sightseeing": "excellent weather for sightseeing"
+    },
+    "follow_up_suggestions": [
+      "Would you like extended weather forecasts?",
+      "I can suggest weather-appropriate activities.",
+      "Need packing recommendations based on weather?",
+      "Would you like information about seasonal variations?"
+    ]
+  },
+  "currency_inquiry": {
+    "templates": [
+      "Here's the currency information: {content}",
+      "Currency conversion: {content}",
+      "Exchange rate details: {content}",
+      "Money matters: {content}",
+      "Financial information: {content}",
+      "Currency exchange: {content}",
+      "Current rates: {content}",
+      "Monetary conversion: {content}"
+    ],
+    "contextual_modifiers": {
+      "travel": "travel-friendly exchange information",
+      "shopping": "shopping budget considerations",
+      "dining": "restaurant pricing guidance",
+      "tourism": "tourist-focused currency tips"
+    },
+    "follow_up_suggestions": [
+      "Need information about where to exchange money?",
+      "Would you like ATM locations and banking tips?",
+      "I can provide cost estimates for various activities.",
+      "Need advice on payment methods accepted locally?"
+    ]
+  },
+  "translation_request": {
+    "templates": [
+      "Here's the translation: {content}",
+      "Translation result: {content}",
+      "In the requested language: {content}",
+      "Language conversion: {content}",
+      "Translated text: {content}",
+      "Linguistic conversion: {content}",
+      "Language assistance: {content}",
+      "Translation service: {content}"
+    ],
+    "contextual_modifiers": {
+      "basic": "essential phrases for travelers",
+      "polite": "courteous expressions",
+      "emergency": "emergency communication phrases",
+      "shopping": "useful shopping phrases",
+      "dining": "restaurant communication help"
+    },
+    "follow_up_suggestions": [
+      "Would you like more phrases in this language?",
+      "I can teach you pronunciation tips.",
+      "Need help with cultural context for these phrases?",
+      "Would you like a list of common travel phrases?"
+    ]
+  },
+  "map_request": {
+    "templates": [
+      "Here's the location information: {content}",
+      "Map details: {content}",
+      "Location and directions: {content}",
+      "Geographic information: {content}",
+      "Spatial details: {content}",
+      "Navigation assistance: {content}",
+      "Location guidance: {content}",
+      "Directional information: {content}"
+    ],
+    "contextual_modifiers": {
+      "walking": "pedestrian-friendly routes",
+      "driving": "vehicle navigation details",
+      "public": "public transport directions",
+      "scenic": "scenic route options",
+      "fastest": "quickest route available"
+    },
+    "follow_up_suggestions": [
+      "Need detailed turn-by-turn directions?",
+      "Would you like alternative route options?",
+      "I can provide nearby landmarks for reference.",
+      "Need information about parking or transportation hubs?"
+    ]
+  },
+  "general_greeting": {
+    "templates": [
+      "🙏 Ayubowan! Welcome to your Sri Lanka tourism assistant! {content}",
+      "Hello! I'm here to help you explore Sri Lanka. {content}",
+      "Greetings! Ready to discover the Pearl of the Indian Ocean? {content}",
+      "Welcome! Your Sri Lankan adventure starts here. {content}",
+      "Namaste! Let's explore beautiful Sri Lanka together. {content}",
+      "Hello there! Sri Lanka awaits your discovery. {content}",
+      "Warm greetings! I'm your guide to Sri Lankan wonders. {content}",
+      "Welcome to Sri Lanka's tourism hub! {content}"
+    ],
+    "content_variations": [
+      "How can I help you today?",
+      "What would you like to know about Sri Lanka?",
+      "Ready to plan your perfect Sri Lankan getaway?",
+      "What Sri Lankan adventure can I help you plan?",
+      "Where would you like to start your journey?",
+      "What brings you to the Pearl of the Indian Ocean?",
+      "How can I make your Sri Lankan experience unforgettable?",
+      "What would you like to explore first?"
+    ],
+    "follow_up_suggestions": [
+      "I can help with destinations, transportation, accommodation, food, culture, weather, and more!",
+      "Feel free to ask about anything related to Sri Lankan tourism.",
+      "I'm here to make your Sri Lankan journey amazing!"
+    ]
+  },
+  "help_request": {
+    "templates": [
+      "I'm here to help! {content}",
+      "Absolutely! I can assist you with: {content}",
+      "I'm happy to help! Here's what I can do: {content}",
+      "Of course! My assistance includes: {content}",
+      "Sure thing! I specialize in: {content}",
+      "I'd be delighted to help! I can provide: {content}",
+      "Perfect! I'm your Sri Lankan tourism expert for: {content}",
+      "Certainly! I offer comprehensive help with: {content}"
+    ],
+    "content_variations": [
+      "destinations and attractions, transportation options, accommodation recommendations, local cuisine, cultural information, weather updates, currency conversion, language translation, and map services",
+      "planning your perfect Sri Lankan itinerary with personalized recommendations",
+      "everything from must-see attractions to hidden gems throughout Sri Lanka",
+      "comprehensive travel assistance for your Sri Lankan adventure"
+    ],
+    "follow_up_suggestions": [
+      "What specific aspect of Sri Lankan tourism interests you most?",
+      "Would you like to start with destinations, or do you have other questions?",
+      "I can provide detailed information on any topic you're curious about.",
+      "What would make your Sri Lankan experience most memorable?"
+    ]
+  },
+  "unknown": {
+    "templates": [
+      "I'd be happy to help with Sri Lankan tourism! {content}",
+      "Let me assist you with Sri Lankan travel information. {content}",
+      "I'm here for all your Sri Lankan tourism needs. {content}",
+      "I specialize in Sri Lankan travel assistance. {content}",
+      "For Sri Lankan tourism, I'm your go-to resource. {content}",
+      "Let's explore Sri Lanka together! {content}",
+      "Sri Lankan tourism is my specialty. {content}",
+      "I'm your dedicated Sri Lankan travel companion. {content}"
+    ],
+    "content_variations": [
+      "Could you please be more specific about what you'd like to know?",
+      "What aspect of Sri Lankan tourism interests you?",
+      "I can help with destinations, travel, accommodation, food, culture, and more.",
+      "What would you like to explore about Sri Lanka?",
+      "Please let me know how I can make your Sri Lankan journey amazing.",
+      "What specific information about Sri Lanka would be helpful?",
+      "I'm ready to assist with any Sri Lankan travel questions."
+    ],
+    "follow_up_suggestions": [
+      "Try asking about popular destinations, transportation, local cuisine, or cultural attractions.",
+      "I can help with practical information like weather, currency, or language assistance.",
+      "Feel free to ask about anything related to visiting Sri Lanka!"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "model_type": "complement_nb",
+  "accuracy": 0.8235294117647058,
+  "confidence_threshold": 0.6,
+  "created_date": "2025-05-23T23:52:22.674225",
+  "intent_categories": [
+    "destination_inquiry",
+    "transportation",
+    "accommodation",
+    "food_inquiry",
+    "culture_inquiry",
+    "weather_inquiry",
+    "currency_inquiry",
+    "translation_request",
+    "map_request",
+    "general_greeting",
+    "help_request",
+    "system_check"
+  ],
+  "total_intents": 12,
+  "version": "1.0"
+}

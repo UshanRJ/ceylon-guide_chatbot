@@ -1,0 +1,74 @@
+{
+  "model_info": {
+    "name": "sgd_classifier",
+    "type": "intent_classifier",
+    "algorithm": "SGDClassifier",
+    "version": "1.0",
+    "created_date": "2025-05-24T13:35:27.523923"
+  },
+  "training_info": {
+    "total_samples": 190,
+    "training_config": {
+      "test_size": 0.2,
+      "validation_size": 0.2,
+      "random_state": 42,
+      "cv_folds": 5,
+      "scoring_metrics": [
+        "accuracy",
+        "precision_macro",
+        "recall_macro",
+        "f1_macro"
+      ],
+      "hyperparameter_optimization": true,
+      "ensemble_methods": true,
+      "feature_selection": true,
+      "text_preprocessing": true
+    },
+    "data_analysis": {
+      "total_samples": 190,
+      "unique_intents": 16,
+      "intent_distribution": {
+        "destination_inquiry": 15,
+        "transportation": 15,
+        "accommodation": 15,
+        "food_inquiry": 15,
+        "culture_inquiry": 15,
+        "weather_inquiry": 15,
+        "currency_inquiry": 15,
+        "translation_request": 15,
+        "map_request": 15,
+        "general_greeting": 15,
+        "help_request": 15,
+        "visa_inquiry": 5,
+        "shopping_inquiry": 5,
+        "safety_inquiry": 5,
+        "wellness_inquiry": 5,
+        "events_inquiry": 5
+      },
+      "avg_text_length": 26.789473684210527,
+      "text_length_std": 8.512399299155017,
+      "vocab_size": 408,
+      "class_balance": "highly_imbalanced"
+    }
+  },
+  "performance_metrics": {
+    "accuracy": 0.6578947368421053,
+    "f1_macro": 0.5702380952380952,
+    "cv_score": 0.4799634971509971,
+    "cv_std": 0.07625873374544107,
+    "cohen_kappa": 0.6302395209580839
+  },
+  "feature_info": {
+    "pipeline_steps": "[('preprocessor', <__main__.TextPreprocessor object at 0x000002004E4ED400>), ('features', <__main__.FeatureUnion object at 0x000002004E5D1E80>), ('scaler', StandardScaler(with_mean=False))]",
+    "feature_selector": "SelectKBest(k='all', score_func=<function chi2 at 0x000002004B225120>)"
+  },
+  "deployment_info": {
+    "model_file": "intent_classifier.pkl",
+    "dependencies": {
+      "scikit-learn": "1.3.0",
+      "numpy": "1.24.0",
+      "nltk": "3.8",
+      "spacy": "3.7.0"
+    }
+  }
+}

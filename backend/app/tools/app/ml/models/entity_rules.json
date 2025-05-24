@@ -1,0 +1,258 @@
+{
+  "version": "1.0",
+  "last_updated": "2025-05-24T15:10:06.563850",
+  "sri_lankan_locations": {
+    "colombo": {
+      "lat": 6.9271,
+      "lng": 79.8612,
+      "type": "city",
+      "province": "Western",
+      "aliases": [
+        "colombo city",
+        "commercial capital"
+      ],
+      "importance": "high"
+    },
+    "kandy": {
+      "lat": 7.2906,
+      "lng": 80.6337,
+      "type": "city",
+      "province": "Central",
+      "aliases": [
+        "kandy city",
+        "cultural capital"
+      ],
+      "importance": "high"
+    },
+    "galle": {
+      "lat": 6.0535,
+      "lng": 80.221,
+      "type": "city",
+      "province": "Southern",
+      "aliases": [
+        "galle city",
+        "galle fort"
+      ],
+      "importance": "high"
+    },
+    "ella": {
+      "lat": 6.8721,
+      "lng": 81.0465,
+      "type": "town",
+      "province": "Uva",
+      "aliases": [
+        "ella town",
+        "ella rock"
+      ],
+      "importance": "high"
+    },
+    "sigiriya": {
+      "lat": 7.9568,
+      "lng": 80.7603,
+      "type": "archaeological_site",
+      "province": "Central",
+      "aliases": [
+        "sigiriya rock",
+        "lion rock",
+        "sigiriya fortress"
+      ],
+      "importance": "high"
+    },
+    "negombo": {
+      "lat": 7.2084,
+      "lng": 79.8358,
+      "type": "city",
+      "province": "Western",
+      "aliases": [
+        "negombo city"
+      ],
+      "importance": "medium"
+    },
+    "nuwara eliya": {
+      "lat": 6.9497,
+      "lng": 80.7891,
+      "type": "hill_station",
+      "province": "Central",
+      "aliases": [
+        "nuwara eliya city",
+        "little england"
+      ],
+      "importance": "high"
+    },
+    "mirissa": {
+      "lat": 5.9487,
+      "lng": 80.4501,
+      "type": "beach_town",
+      "province": "Southern",
+      "aliases": [
+        "mirissa beach"
+      ],
+      "importance": "high"
+    },
+    "anuradhapura": {
+      "lat": 8.3114,
+      "lng": 80.4037,
+      "type": "ancient_city",
+      "province": "North Central",
+      "aliases": [
+        "anuradhapura ancient city"
+      ],
+      "importance": "high"
+    },
+    "polonnaruwa": {
+      "lat": 7.9403,
+      "lng": 81.0188,
+      "type": "ancient_city",
+      "province": "North Central",
+      "aliases": [
+        "polonnaruwa ancient city"
+      ],
+      "importance": "high"
+    }
+  },
+  "currency_patterns": {
+    "usd": {
+      "patterns": [
+        "\\$\\s*([0-9,]+(?:\\.[0-9]{1,2})?)",
+        "([0-9,]+(?:\\.[0-9]{1,2})?)\\s*(?:us\\s*)?dollars?",
+        "([0-9,]+(?:\\.[0-9]{1,2})?)\\s*usd"
+      ]
+    },
+    "lkr": {
+      "patterns": [
+        "rs\\.?\\s*([0-9,]+(?:\\.[0-9]{1,2})?)",
+        "([0-9,]+(?:\\.[0-9]{1,2})?)\\s*(?:sri\\s*lankan\\s*)?rupees?",
+        "([0-9,]+(?:\\.[0-9]{1,2})?)\\s*lkr"
+      ]
+    },
+    "eur": {
+      "patterns": [
+        "€\\s*([0-9,]+(?:\\.[0-9]{1,2})?)",
+        "([0-9,]+(?:\\.[0-9]{1,2})?)\\s*euros?"
+      ]
+    },
+    "gbp": {
+      "patterns": [
+        "£\\s*([0-9,]+(?:\\.[0-9]{1,2})?)",
+        "([0-9,]+(?:\\.[0-9]{1,2})?)\\s*pounds?"
+      ]
+    }
+  },
+  "tourism_entities": {
+    "attractions": {
+      "temples": [
+        "temple",
+        "kovil",
+        "devale",
+        "dagoba",
+        "stupa",
+        "vihara",
+        "monastery"
+      ],
+      "historical": [
+        "fort",
+        "palace",
+        "ruins",
+        "archaeological site",
+        "ancient city",
+        "heritage site"
+      ],
+      "natural": [
+        "beach",
+        "waterfall",
+        "mountain",
+        "hill",
+        "lake",
+        "river",
+        "forest",
+        "national park"
+      ],
+      "modern": [
+        "museum",
+        "gallery",
+        "shopping mall",
+        "market",
+        "zoo",
+        "aquarium"
+      ]
+    },
+    "activities": {
+      "adventure": [
+        "safari",
+        "trekking",
+        "hiking",
+        "climbing",
+        "diving",
+        "snorkeling",
+        "surfing"
+      ],
+      "cultural": [
+        "cultural show",
+        "dance performance",
+        "cooking class",
+        "meditation",
+        "yoga"
+      ],
+      "wildlife": [
+        "whale watching",
+        "bird watching",
+        "elephant watching",
+        "leopard safari"
+      ],
+      "leisure": [
+        "spa",
+        "massage",
+        "beach relaxation",
+        "sunset viewing",
+        "photography"
+      ]
+    },
+    "transportation": {
+      "public": [
+        "bus",
+        "train",
+        "tuk tuk",
+        "three wheeler"
+      ],
+      "private": [
+        "taxi",
+        "car",
+        "van",
+        "motorbike",
+        "bicycle"
+      ],
+      "special": [
+        "boat",
+        "helicopter",
+        "seaplane",
+        "domestic flight"
+      ]
+    },
+    "accommodation": {
+      "luxury": [
+        "resort",
+        "luxury hotel",
+        "boutique hotel",
+        "5 star hotel"
+      ],
+      "standard": [
+        "hotel",
+        "inn",
+        "lodge"
+      ],
+      "budget": [
+        "guesthouse",
+        "hostel",
+        "homestay",
+        "budget hotel"
+      ],
+      "unique": [
+        "eco lodge",
+        "treehouse",
+        "villa",
+        "bungalow",
+        "camp"
+      ]
+    }
+  }
+}

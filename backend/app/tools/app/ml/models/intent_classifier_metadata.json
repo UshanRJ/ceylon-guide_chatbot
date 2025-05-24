@@ -1,0 +1,23 @@
+{
+  "model_type": "svm_linear",
+  "accuracy": 0.8095238095238095,
+  "confidence_threshold": 0.4,
+  "created_date": "2025-05-24T14:54:57.193678",
+  "intent_categories": [
+    "destination_inquiry",
+    "transportation",
+    "accommodation",
+    "food_inquiry",
+    "culture_inquiry",
+    "weather_inquiry",
+    "currency_inquiry",
+    "translation_request",
+    "map_request",
+    "general_greeting",
+    "help_request",
+    "system_check"
+  ],
+  "total_intents": 12,
+  "version": "1.0",
+  "last_updated": "2025-05-24T15:20:40.350902"
+}
